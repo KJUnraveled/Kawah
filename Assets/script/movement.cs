@@ -80,7 +80,7 @@ public class movement : MonoBehaviour
             {
                 StartCoroutine(Dash(-1f));
                 
-                
+                transform.position += new Vector3(5, 0, 0);
                 
             }
 
